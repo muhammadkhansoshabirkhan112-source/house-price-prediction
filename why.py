@@ -46,7 +46,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---------- Load model ----------
-model = joblib.load("OneDrive/house price prediction/house_price_model.joblib")
+model = joblib.load("house_price_model.joblib")
 
 # ---------- Header ----------
 st.title("🏠 House Price Prediction")
